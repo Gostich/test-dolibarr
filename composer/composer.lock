@@ -1,0 +1,79 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "eb851a82b8747af4a2f4204eead95058",
+    "packages": [
+        {
+            "name": "dolibarr/dolibarr",
+            "version": "3.7.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Dolibarr/dolibarr.git",
+                "reference": "444fce0bd9ccecef83a3dbbb8ed2704efcbd264d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Dolibarr/dolibarr/zipball/444fce0bd9ccecef83a3dbbb8ed2704efcbd264d",
+                "reference": "444fce0bd9ccecef83a3dbbb8ed2704efcbd264d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3.0"
+            },
+            "suggest": {
+                "ext-gd": "Image manipulation (Required but maybe built-in PHP)",
+                "ext-imagick": "Image manipulation (TCPDF)",
+                "ext-mbstring": "Handle non UTF-8 databases",
+                "ext-mcrypt": "(Required but maybe built-in PHP)",
+                "ext-mssql": "To use with MSSQL (experimental)",
+                "ext-mysqli": "To use with MySQL or MariaDB",
+                "ext-mysqlnd": "To use with MySQL or MariaDB",
+                "ext-openssl": "Secure connections (Emails, SOAP…)",
+                "ext-pdo_sqlite": "To use with SQLite (experimental)",
+                "ext-pgsql": "To use with PostgreSQL",
+                "ext-soap": "Native SOAP",
+                "ext-xml": "Excel support",
+                "ext-zip": "ODT and Excel support",
+                "firephp/firephp-core": "Logging to Firebug console support",
+                "raven/raven": "Sentry logging server support"
+            },
+            "type": "project",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "description": "Dolibarr ERP & CRM is a modern and easy to use web software to manage your business",
+            "homepage": "http://www.dolibarr.org",
+            "keywords": [
+                "ERP",
+                "crm",
+                "invoice",
+                "order",
+                "proposal",
+                "sme",
+                "stock"
+            ],
+            "support": {
+                "forum": "http://www.dolibarr.org/forum",
+                "irc": "irc://chat.freenode.net/dolibarr",
+                "issues": "https://github.com/Dolibarr/dolibarr/issues",
+                "source": "https://github.com/Dolibarr/dolibarr",
+                "wiki": "http://wiki.dolibarr.org"
+            },
+            "time": "2016-03-11T17:34:05+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

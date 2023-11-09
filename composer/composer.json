@@ -1,0 +1,5 @@
+{
+    "require": {
+        "dolibarr/dolibarr": "^3.7"
+    }
+}
